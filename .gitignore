@@ -1,0 +1,64 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+*.log
+
+# ============================================
+# Data Files 
+# ============================================
+data/raw/
+data/processed/
+*.parquet
+*.npz
+*.pkl
+
+# ============================================
+# Model Checkpoints
+# ============================================
+models_official_final/
+*.pt
+*.pth
+*.h5
+
+# ============================================
+# Outputs & Figures
+# ============================================
+outputs_official_final/
+figures/
+evaluation_results.json
+
+# ============================================
+# IDE / Editor Files
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ============================================
+# Jupyter Notebooks (optional
+# ============================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================
+# Testing
+# ============================================
+.pytest_cache/
+.coverage
+htmlcov/
+eda_visualizations.png
