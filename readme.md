@@ -271,18 +271,7 @@ Unlike matrix factorisation approaches, GRU4Rec works without persistent user ID
 - **P99 latency** spikes to ~198 ms. Quantization or ONNX export could bring this down further for production serving.
 - Cross-session user modelling to better serve heavy/returning users.
 
----
 
-## Citation
-
-If you use this codebase or results, please cite the RetailRocket dataset:
-
-```
-RetailRocket E-commerce Dataset
-https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset
-```
-
----
 
 ## License
 
